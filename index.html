@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock Paper scissors</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+
+            <img src="https://jooinn.com/images/stone-25.jpg"
+                alt="Free photo: Stone - Dark, Gray, Rock - Free Download - Jooinn" class=" nofocus" tabindex="0"
+                aria-label="Free photo: Stone - Dark, Gray, Rock - Free Download - Jooinn" role="button">
+        </div>
+        <div class="choice" id="paper">
+            <img src="https://www.goodfreephotos.com/albums/textures/crumpled-paper-texture.jpg"
+                alt="√99以上 old wrinkled paper overlay 232113" class=" nofocus" tabindex="0"
+                aria-label="√99以上 old wrinkled paper overlay 232113" role="button" data-bm="6">
+        </div>
+        <div class="choice" id="scissors">
+            <img class="mimg rms_img" style="color: rgb(102, 102, 102);" height="180" width="156" alt="Image result
+             for Scissors Drawing" id="embC6CA22BE1" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQc
+             JCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCw
+             sLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AJwDASIAAhEBAxEB/8QAHAABAAICAwEAA
+             AAAAAAAAAAAAAYHAQUCBAgD/8QAPBAAAQMDAwEFBgUBBgcAAAAAAQIDBAAFEQYSITEHE0FRYRQVInGBkSMyUnKCQiRiZKKx4RYlM5KhwdH/
+             xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AtulKUClKUClKUClZrFApSlApSunc7nb
+             7PBk3C4PBmNHTuWo8qUo8BCE9So9AKD7SpcSDHflzH22IzCC4866oJQhI45J+wrR6b1INTLvEqIwW7TEfbhQ3nQQ/KeSnvHnFJ6JSMoCRye
+             cnGdqaR1brG6aok4WVMWxlwqiQkq+EHoHXiPzLx9s4HUlV3aJtfujTNjiqTtecjiZJyMK76Se+KVeqQQn+NBIqUpQKUpQKUpQKUpQKUpQKU
+             pQZrFKUClKUCqC7StRvXe9PW1l0+7rQ4qOhCThLktPwvOqHiQcoT6A4/Oc3PqS7Jsdju9zJG+NGV7ODyFSHMNNAjy3EZ9K8vKUpalLWoqUol
+             SlKJJUSckkmg22mbX75v1ltpTubkS2+/H+Hby67/lCq9QiqX7IbX3twu93Wn4IcdENgkcF2Qd6yk+aUpwf31dFApSlApSlApXSud1tlnhvTr
+             jJbjxmuCpZyVLIJCG0jkqPOAB/pWbbNNxgQJ/cLYTMYbkttOKBcS06N6N+3jJBBI8M45xkh3KUpQKUpQKUpQZrFKUClKUFTdr932t2axtq5
+             cKrnKA/SncyyMjwJ7wn5D6VBW+1fd/feorzPSrcwZBYikH4fZ2B3TZH7gN38q19ot7l1ulrtreQqbLYjlQGShK1gKX/EZJ+VBfnZ1a/dml
+             bXuTh64b7m76+0Y7s/9gRUuri020y2000kJaaQhttKeiUIASkD5CuVApSlAqNao1jZtLsf2hXfz3EFUaCysB1Y6Bbp52o9SPPAOOI5rHt
+             JiWvvrbYVtSbiMoelYDkaIrphH9K1j7DxyQUilZMmVMfekynnH5D6yt115RW4tR8VKPNBJBOvuvdS2qNPeUoSZQbQy1lLESLnvHu5QSeiQ
+             SSSSccny9GIQhtKEISEoQkJQkDASlIwABVUdkun1IRM1FJRjvkrhW7cOqAr8Z0Z9QEA+iqtmgUpSgUpSgVmsUoM0pWKBUd1rdvc2mrzLSva+
+             4wYcXBwrv5P4QUn1SCVfxqRVT3bBdip6zWRtXwtIXcpIByCte5lkH1ACz/IfUKoqxeya1+136Vclpy3aoiig+UiVllH+UOVXVX92XWv2DTLUp
+             acPXWS7MORhQZT+A0n5fCVD99BO6VitNqDUlm03EMq4vYUvcI0dvBkSVgZIbQT0HGSeBnryMhs5cuJBjvy5b7bEZhBcedeUEoQnpyT9h/vVJ6y7SJd29ottjU7Gtitzb0jlEmYnoQPFLZ8upHXGSmo5qjV951RI3SVdzBaWVRYLSiWWuoClnjcvHVRHicAA4qOUCpzonQcvUTjc+elxiytr/PylyapJwW2P7vgpX0HOdm30T2buzSxddQtKah/C5FgLyl2T4hcgdUo8h1PoPz3M2200htppCENtoS22htIShCEjASlKeAB4UHGPHjxWGI0ZpDTDDaGmW2wEoQ2gYCUgeAr6UpQKUpQKUpQKUpQZrFKUCvMGqbr77v96uIVuaelLTGP+Gawy1x+0An51fWuLr7n0zeZCVbX32fYYvOD3sn8LKT5pG5X8a82UH3iRnpsqHDYGXpchmMyPNx1YbSPua9VQ4rMGHChMjDMOOxFaB67GkBtP+lUL2Z25uXqRE18pTFs0V+4vLdIS0lQHdI3KPAwSV/wqRax7TlL762aZdUlGC3IuYGFq8CmHnkD+/jPljAUQlGsO0C2adDkKH3U28YILO4liKfAyVIOc/3Qc+ZTkFVFXK53K7y3p1xkuSJTp+Jbh6DqEoSPhCR4AACuopSlKUpRJUokkkkkk8kkmu/aLPdb5NagW2Op59z4lY4babBALjq+gSPP6ck4IdNhiRJdaYjtOPPvLS200yhS3HFqOAlCU8kmrr0V2cR7X7PdL6ht+5DDkeISlbENXUKXjKVOD6gHpkgKTvdI6JtWmGQ6cSbs6jD8taeEAjlqOk9E+Z6nx4wlMsoFKUoFKUoFKUoFKUoFKUoM1ilKCnu2C6737LZW1fCy2u4yQDkFbhLLQPqAFn+X3qit1qm6++tQXq4hW5p6UtEY+HszOGWjj1SAT860tB2W585mHLgMvrbiy3GXJTbfwh8s57sOkckJySATjJz1GR1qVYWjOzqZe/Z7ldw5GtB2uNN8pkTk9Rt8Utn9XUjp13JDQ6W0heNUSCI47iC0tKZU51JLTZ4JQ2ONy8c4B8RkjOTf9i0/Z9OwkwrazsSdpfeXhT8hwDG95YAyeuBwBngCu9EiQ4MdiJDYbYjMICGWmkhKEJ68Afc/7196BSlKBSlKBSlKBSlKBStRe9SWDTzIeuctDSlgllhH4kl7Gf8AptJ5x4ZOB5kZqsrl2s3mY6Y1gtaGgslDa5KVypS/JSGmiEA+nx0FyUqhXr920OgurRqBCOuWrSppsD+EcCuFu7T9aQHgJzjNwZQra4zLZbadAB5CXWEpUFfMK+VBf1Vt2ga8btSJNjtZQ5cXmltTH85RCQ4nG1OOrmDn09ScDlee0u2DTKLhaV4uk5a4jMd0JLsJ1KQXHXE/lISCCg9CVDjghNJhMuY86pKX5D6++fdIC3XVbQXXHFnk8DKlH5mg+Nc2mnXnGmWW1uOurS2020krWtajtSlCU8knwFcKubsm0+21Dl3+SwgvSnSxbVuJBW2w1uQ642fDeSU/wPgeQaM7NGonc3PUTaHZXwrj28gLZYPXdJ6pUryT0HjknCLSpSgzSsUoFKUoFKUoFKUoFQXXGvGNOoVbrf3b16cQFEKwpqC2sZDjw8VnqhP1PGA5tdZ6mb0xZ3ZKNqp8kqj25pWCC8RkuqH6UDk+uBxuyID2d6UcvEhzVV7Cn2zIcchJkZWZUoLPeSXd3UJOQnzOf0fEHHTnZ9d9RPe/dWSZSW5RS8llaz7bKT1BdUofAjGAABnHTaACbWttns1nZDFsgxoreAFdygBa8cZccPxqPqVGu/SgVBe0XTFuulluF1Sy23c7ZHXKTIQAlTrDQ3ONPEdRjJTnoRxwSFTqoF2nagYtlietbawZ94SWUoB+JuIFDvXFDyP5B55P6TQUrZbROvtyh2yEkF6QvBWrOxltPxLdcPkkc/8AjqcG5bzbLDobRd6bhto9rnRTbVSXQPaZb8pJbOVeASncoJBwNvmcq0HZqxBsVqverbu4iPGd2wYbiwd620K3O90BydyglIA8UHy4imr9VztXXBlLLLrUCOVN2+IPjdWpXBddCM5WrjgcADAzypYa7TOn5mpLrGt7AUlnIcmvgZTHjA/Es+GT0SPEkfMel4kWNCjRYcVsNx4zLbDDaeiW20hIHNeZ40vWGmiFsLu1rDykrKVoeYaeUkHBUh1OxWOeoNWrobtEVeX2rReg03cVjESU2AhqWoDJbcQOEudSMcHpgHAWFk0pSgUpSgUpSgUpSgUpSgojWkmTqjXDFlYcIZjSmLMxgEhtZWPaHSn0O7PogVeESLGgxYkOKgNx4rLbDCB/S22kJA/+15+gTG7N2hKl3I7UR7/PRKWrojvnHWi6r0G7d9K9DIWhxCFoUlSFpStCkEKSpKhkFJHGD4UHKldO4XS1WpkyLlNjRWsHCpDiUFZHOEJPxE+gBqr9SdrGUuxdNNKHVJuMtsZ+cdhefTBUP4+NBNtV6xtOl4x71SX7k6gmLCQob1eAcexylHr444zg4qGzWfUHaFfZE2c64I3epVcJYGEMtj8seMDkbscJHOOpz/VsNOdn+oNRyPet/clRob6++cXJKjcJhJ6pDoJAP6lDywCDkT/WD8HSejZcW1soipeSm1wkNZ+FUgK7xZUTu3bQs7iSc85oKu1JcndTXi32CwtYtMFxFrssZknu3CD3ZkqJ/V1yeiRk8kk3HpbSVo0xDbQy2h2etA9rnKSO9dWeSlBPIR5AeXOTzUA7IrKh2Rc788gERf8Al8IkZAecSFvLHqElKR6LNXFQfKRHjS2XY8llp9h1JQ60+hLja0nwUlQIrz/rnTZ0neoz9uU43Bln2u3K3KK4zzKgVNBZ5Ow7Sk9cEdSMn0LVcdrzLatP2t8gd61eGm0K8Ql2O8VD67U/agmthuQvFms9z+EKmQ2XXQn8qXsbXEj5KBFbKoh2bFR0ZYs54VcAnPl7a9UvoFKzSgxSlKBSlKBSlKCvNa9nab/IVdbW+1HuS0pTJbf3CPKKAEhe5AJSvHB4IOB0OSqFsaP7YIKfZYS57MYEgCJeWmWPmEJfSf8ALV70oKVidlOqJ73f3q6xmd+CtQW7NlH0Vu2o+veGrBsOhNK2AtvMRTKmowRLnlLrqFZzlpIAbTjwITn1NSmlAqoe2OYSvTlvSSAlEyY6nwJUUNNn6YX96t6qP7Xyr/iG1D+kWVkj5+0yc/8AqgsfQEEQNJ2FG0BclhU9w45UZSy6kn+JSPpUprX2RCW7NYm0fkbtlvQn9qY6AK2FAqqO2G4oEew2lKgVuPPXF1PilLaSw2T89y8ftq0pEiPEYkSpLqGo8dpbzzizhKG0DcpR+VUdb0SO0LXKpjzavdjDiJDiFjKW7fGVhphXhlw43DP9Sj4UFt6TgKtmm9PwlpKXG4LTjyT1S8/mQ4k/IqIrd0pQKVmlBilKUClKUClKUClKUClKUCqj7YrevOn7qlJKMSLe8rHCVZ79ofX8T7Vbla2+2aFf7ZMtcsENyEjY4kArZdQdyHUZ8QfuMjoaDV6Fu8e7aZs60LBehRmrfLRkFaHYyQ0CoD9QAUPn9pE8/HjNOvyHWmWGklbrry0tttpHVS1rIAH1qgXtNdpGkpzq7Y1cilR2JlWdLj7UhsHI7xtoEj5KT9+p+6NP9qurXG0XL3imOlYJXeFuRY7R/UmOQCT+1s0Hd1lrCZq2Wzp3Trb7sF19CPw0lLlxeScpyk4IbTjcM46bjjbxZWjtMR9L2pEbKHJ8nY/cX0Dhb2MBtBPOxGSE/MnA3YHy0pouz6WaUtr+03J1G2RNdSArb4tso52p8+ST4k4ATKaBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKBSlKD/9k=" data-thhnrepbd="1" data-bm="144">
+        </div>
+    </div><div class="score-board">
+        <div class="score">
+            <p id="user-score"> 0 </p>
+            <p> USER</p>
+        </div>
+        <div class="score">
+            <p id="comp-score"> 0 </p>
+            <p> COMPUTER</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg"> Play Your Move</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
